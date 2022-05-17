@@ -35,7 +35,7 @@ services:
       - kurs_devops_default
   firefox:
     image: selenium/node-firefox
-    container_name: firefix_env
+    container_name: firefox_env
     depends_on: 
       - selenium
     environment:
