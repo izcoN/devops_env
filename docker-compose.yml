@@ -37,7 +37,7 @@ services:
     image: selenium/node-firefox
     container_name: firefox_env
     depends_on: 
-      - seleniumhub
+      - selenium
     environment:
       - SE_EVENT_BUS_HOST=selenium-env
       - SE_EVENT_BUS_PUBLISH_PORT=4442
